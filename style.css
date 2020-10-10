@@ -1,0 +1,185 @@
+/* body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+}
+
+#todo-item {
+  margin-left: 40px;
+  margin-top: 10%;
+  margin-bottom: 20px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  border: 2px solid lightskyblue;
+  background-color: black;
+  color: lightskyblue;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+}
+button {
+  padding: 15px 30px;
+  margin-left: 100px;
+
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  color: lightskyblue;
+  background-color: black;
+  border: 2px solid lightskyblue;
+  cursor: pointer;
+  text-align: center;
+}
+#todo-item::placeholder {
+  font-size: 20px;
+}
+button:hover {
+  color: black;
+  background-color: lightskyblue;
+}
+li {
+  width: 25%;
+  padding: 10px;
+  margin: 10px;
+  color: lightskyblue;
+  background-color: black;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+  border: 1px solid white;
+  border-radius: 8px;
+  overflow: hidden;
+} */
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.container {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(27, 27, 136) 50%,
+    rgb(3, 210, 251) 90%
+  );
+  min-height: 500px;
+  width: 400px;
+  margin: 60px auto;
+  border-radius: 20px;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(70, 194, 177);
+  margin-top: 40px;
+}
+.input_feild {
+  background-color: rgb(27, 110, 165);
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #fff;
+  outline: nonedas;
+}
+.input_feild::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.input_feild:focus,
+.todo_btn:focus,
+.del_btn:focus {
+  outline: none;
+}
+
+.todo_btn {
+  height: 50px;
+  width: 80px;
+  border-radius: 10px;
+  outline: none;
+  font-weight: bolder;
+  font-size: 18px;
+  color: lightskyblue;
+  background-color: black;
+  border: 2px solid lightskyblue;
+  cursor: pointer;
+}
+.del_btn {
+  height: 30px;
+  text-align: center;
+  border: 0;
+  background: none;
+  color: rgb(165, 1, 1);
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.edit_btn {
+  height: 30px;
+  text-align: center;
+  border: 0;
+  color: green;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.del_all {
+  height: 40px;
+  width: 80px;
+  text-align: center;
+  border: 0;
+  color: red;
+  background-color: black;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 150px;
+}
+
+li {
+  width: 300px;
+  height: 50px;
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: rgb(6, 28, 75);
+  border: 2px solid rgb(155, 212, 248);
+  color: #fff;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow: hidden;
+
+  padding: 10px;
+  list-style-type: none;
+  position: relative;
+  right: 30px;
+  line-height: 50px;
+  text-transform: capitalize;
+}
