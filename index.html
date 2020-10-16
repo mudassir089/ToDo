@@ -5,6 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ToDO App</title>
     <link rel="stylesheet" href="style.css" />
+
+    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-database.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyCfmxKAIv51DHDVos3OKfq-EfrMykqxX9A",
+        authDomain: "todo-app-afb2c.firebaseapp.com",
+        databaseURL: "https://todo-app-afb2c.firebaseio.com",
+        projectId: "todo-app-afb2c",
+        storageBucket: "todo-app-afb2c.appspot.com",
+        messagingSenderId: "997272504846",
+        appId: "1:997272504846:web:2a1292a5247a022775ca5f",
+        measurementId: "G-17LYZ9VSXS",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
   </head>
   <body>
     <h1>TODO APP</h1>
